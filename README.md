@@ -3,5 +3,4 @@
 ## Python program to implement chatting between two OS.
 #### socket programming
 Do-
-Run the python program in both the OS
-Start Chatting!!
+Run the python program in both the OS and Start Chatting!!
