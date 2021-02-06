@@ -4,7 +4,7 @@ import time
 
 s=socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 print("!!!!!!!--------!!!!!!!!!----------------!!!!!!!!!------------------!!!!!!!\n")
-print("\t\tChat Application without multithreading")
+print("\t\t my Chat Application without multithreading")
 print("!!!!!!!--------!!!!!!!!!----------------!!!!!!!!!------------------!!!!!!!\n")
 print("hey!!!!..... This is chirag os\n")            
 ip=input("Enter your IP: ")
