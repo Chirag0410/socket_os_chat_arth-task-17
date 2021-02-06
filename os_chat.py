@@ -15,9 +15,12 @@ s.bind((ip,port))
 while True:
   i=input("send message:")
   s.sendto(i.encode(), (send_ip,send_port))
-  x=s.recvfrom(20)
+  x=s.recvfrom(1024)
   clientip=x[1][0]
 
   data=x[0].decode()
 
   print('\t\t\t\t\t recv message' + clientip + " : " + data)
+  if data.decode() == "quit":
+            print("Partner is Offline!")
+            os._exit(1)
